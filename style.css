@@ -169,3 +169,29 @@ nothingUL{
     text-align: center; 
     box-sizing: border-box; 
 }
+
+@media (max-width: 1000px){
+    #main_elements ul li{
+        width: 49%;
+        vertical-align: top;
+        padding-bottom: 75px;
+        position: relative;
+        display: inline-block;
+    }
+    .name{
+        display: block;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .price{
+        font-size: 15px;
+    }
+
+    #wrap{
+        max-width: 1920px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+    }
+}
