@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="modal_func.js"></script>
+    <title>My Wine List</title>
+</head>
+<body>
+    <div id="top_wrap">
+        <h1>UK's WINE LIST</h1>
+        <div class="btn_box">
+            <a href="#" class="btn_open" onClick="javascript:popOpen();">
+                <p>Add</p>
+            </a>
+        </div>
+    </div>
+    <div class="modal_bg" onClick="javascript:popClose();"></div>
+    <div class="modal_wrap">
+        <h3>와인 추가</h3>
+        <div class="close_btn_box">
+            <a href="#" class="btn_close" onClick="javascript:popClose();">
+                <p>X</p>
+            </a>
+        </div>
+        <!--내용 추가 요망-->
+    </div>
+    <div id="wrap">
+        <div id="category_wrap">
+            <h2>레드와인</h2>
+            <ul>
+                <li><a href="index_red.html">레드와인</a></li>
+                <li><a href="index_white.html">화이트와인</a></li>
+                <li><a href="index_sparkling.html">스파클링와인</a></li>
+                <li><a href="index_champhagne.html">샴페인</a></li>
+                <li><a href="index_rose.html">로제와인</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="main_top">
+                <h3>7 개 와인</h3>
+                
+            </div>
+            <div id="main_elements">
+                <ul>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/two vines shiraz.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name"><del>Two Vines Shiraz 2019</del></span></a>
+                            <a href=""><span class="price"><del>18,000원</del></span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/cruz porto.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Porto Cruz Tawny Port</span></a>
+                            <a href=""><span class="price">18,000원</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/micele.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Michele Chiarlo Barbera d'Asti Le Orme 2020</span></a>
+                            <a href=""><span class="price">23,000원</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/art-de-vivre.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Art De Vivre Rouge 2016</span></a>
+                            <a href=""><span class="price">30,000원</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/tripleC.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Santa Rita Triple C Red Blend 2019</span></a>
+                            <a href=""><span class="price">30,000원</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/louis jadot pinot noir.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Louis Jadot Pinot noir 2020</span></a>
+                            <a href=""><span class="price">40,000원</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap">
+                            <a href="">
+                                <img src="img/R/sexual chocolate.png">
+                            </a>
+                        </div>
+                        <div class="desc_wrap">
+                            <a href=""><span class="name">Sexual Chocolate Red 2020</span></a>
+                            <a href=""><span class="price">50,000원</span></a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
