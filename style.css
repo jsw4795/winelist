@@ -169,6 +169,12 @@ nothingUL{
     text-align: center; 
     box-sizing: border-box; 
 }
+.rate{
+    float: right;
+    padding-right: 15%;
+    font-size: 22.5px;
+    color: green;
+}
 
 @media (max-width: 1000px){
     #main_elements ul li{
@@ -193,5 +199,11 @@ nothingUL{
         padding-left: 10px;
         padding-right: 10px;
         font-size: 18px;
+    }
+    .rate{
+        float: right;
+        padding-right: 12%;
+        font-size: 20px;
+        color: green;
     }
 }
