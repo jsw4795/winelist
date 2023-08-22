@@ -176,7 +176,7 @@ nothingUL{
     color: green;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1165px){
     #main_elements ul li{
         width: 49%;
         vertical-align: top;
